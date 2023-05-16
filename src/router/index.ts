@@ -21,7 +21,7 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/ads',
-    name: 'ads_txt',
+    name: 'adsTxt',
     component:  () => import('@/views/ads_txt.vue'),
     
   },
