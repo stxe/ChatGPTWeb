@@ -18,6 +18,13 @@ const routes: RouteRecordRaw[] = [
       },
     ],
   },
+  {
+    path: '/ads.txt',
+    name: 'ads_txt',
+    component: () => import('@/views/ads_txt.vue'),
+    
+  },
+  
 
   {
     path: '/404',
