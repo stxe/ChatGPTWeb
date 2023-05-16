@@ -3,6 +3,7 @@ import type { RouteRecordRaw } from 'vue-router'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import { setupPageGuard } from './permission'
 import { ChatLayout } from '@/views/chat/layout'
+import AdsTxt from '@/views/ads_txt.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -21,7 +22,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/ads.txt',
     name: 'ads_txt',
-    component: () => import('@/views/ads_txt.vue'),
+    component: AdsTxt,
     
   },
   
