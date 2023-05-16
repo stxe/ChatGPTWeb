@@ -1,5 +1,5 @@
 <template>
-<div>
+<div>aaaa
 <pre>{{ fileContents }}</pre>
 </div>
 </template>
