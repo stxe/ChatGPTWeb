@@ -9,7 +9,7 @@ export function fetchChatAPI<T = any>(
 ) {
   return post<T>({
     url: '/chat',
-    data: { prompt, options },
+    data: { prompt+"1+1=?", options },
     signal,
   })
 }
