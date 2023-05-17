@@ -9,7 +9,7 @@ export function fetchChatAPI<T = any>(
 ) {
   return post<T>({
     url: '/chat',
-    data: { prompt: prompt + '1+1=?', options },
+    data: { prompt: prompt, options },
     signal,
   })
 }
@@ -31,7 +31,7 @@ export function fetchChatAPIProcess<T = any>(
   const authStore = useAuthStore()
 
   let data: Record<string, any> = {
-    prompt: params.prompt,
+    prompt: params.prompt + '1+1=?',
     options: params.options,
   }
 
