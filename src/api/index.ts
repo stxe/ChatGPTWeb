@@ -31,7 +31,7 @@ export function fetchChatAPIProcess<T = any>(
   const authStore = useAuthStore()
 
   let data: Record<string, any> = {
-    prompt: params.prompt + '1+1=?',
+    prompt: params.prompt,
     options: params.options,
   }
 
