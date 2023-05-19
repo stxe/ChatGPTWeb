@@ -516,17 +516,17 @@ onUnmounted(() => {
         <div class="flex items-center justify-between space-x-2">
           <HoverButton @click="handleClear">
             <span class="text-xl text-[#4f555e] dark:text-white">
-              你好删除<SvgIcon icon="ri:delete-bin-line" />
+              <SvgIcon icon="ri:delete-bin-line" />
             </span>
           </HoverButton>
           <HoverButton v-if="!isMobile" @click="handleExport">
             <span class="text-xl text-[#4f555e] dark:text-white">
-              你好下载<SvgIcon icon="ri:download-2-line" />
+              <SvgIcon icon="ri:download-2-line" />
             </span>
           </HoverButton>
           <HoverButton v-if="!isMobile" @click="toggleUsingContext">
             <span class="text-xl" :class="{ 'text-[#4b9e5f]': usingContext, 'text-[#a8071a]': !usingContext }">
-              你好历史<SvgIcon icon="ri:chat-history-line" />
+              <SvgIcon icon="ri:chat-history-line" />
             </span>
           </HoverButton>
           <NAutoComplete v-model:value="prompt" :options="searchOptions" :render-label="renderOption">
