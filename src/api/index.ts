@@ -38,7 +38,7 @@ export function fetchChatAPIProcess<T = any>(
   if (authStore.isChatGPTAPI) {
     data = {
       ...data,
-      systemMessage: settingStore.systemMessage+'用「」包裹你的回答',
+      systemMessage: settingStore.systemMessage,
       temperature: settingStore.temperature,
       top_p: settingStore.top_p,
     }
