@@ -485,7 +485,7 @@ onUnmounted(() => {
 				<SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
               <span></span>
             </div>
-          <div></div  
+          <div>AI Chat</div>  
           </template>
           <template v-else>
             <div>
