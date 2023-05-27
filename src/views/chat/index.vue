@@ -493,8 +493,8 @@ onUnmounted(() => {
 <div>Got any creative ideas for a 10 year old’s birthday?</div>  
 <div>How do I make an HTTP request in Javascript?</div>  
 </div>  
-<div>AI Chat</div>  
-<div>AI Chat</div> 
+<div class="flax flax-col">AI Chat</div>  
+<div class="flax flax-col">AI Chat</div> 
  </div>  
 </div>  
           </template>
