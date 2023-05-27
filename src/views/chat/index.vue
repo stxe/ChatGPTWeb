@@ -494,10 +494,10 @@ onUnmounted(() => {
 <div>How do I make an HTTP request in Javascript?</div>  
 </div>  
 <div class="flax flax-col">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+<div>Capabilities</div>
+<div>Remembers what user said earlier in the conversation</div>
+<div>Allows user to provide follow-up corrections</div>
+<div>Trained to decline inappropriate requests</div>
 </div>  
 <div class="flax flax-col">AI Chat</div> 
  </div>  
