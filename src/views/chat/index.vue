@@ -481,10 +481,11 @@ onUnmounted(() => {
           <template v-if="!dataSources.length">
             <div class="text-100 flex items-center justify-center mt-4 text-center text-neutral-800">
               <h1 class="text-dd">ai chat</h1>
+              
 				<SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
               <span></span>
             </div>
-            
+          <div></div  
           </template>
           <template v-else>
             <div>
