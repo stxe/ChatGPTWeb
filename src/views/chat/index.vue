@@ -487,19 +487,19 @@ onUnmounted(() => {
             </div>
             <div>
           <div class="text-3xl">AI Chat</div>  
-          <div class="flex flex-row">
-<div class="flex flex-col"><div>Examples</div>
+          <div class="flex flex-row space-x-4">
+<div class="flex flex-col space-y-4"><div>Examples</div>
   <div>Explain quantum computing in simple terms</div>  
 <div>Got any creative ideas for a 10 year old’s birthday?</div>  
 <div>How do I make an HTTP request in Javascript?</div>  
 </div>  
-<div class="flex flex-col">
+<div class="flex flex-col space-y-4">
 <div>Capabilities</div>
 <div>Remembers what user said earlier in the conversation</div>
 <div>Allows user to provide follow-up corrections</div>
 <div>Trained to decline inappropriate requests</div>
 </div>  
-<div class="flex flex-col"><div>Limitations</div>
+<div class="flex flex-col space-y-4"><div>Limitations</div>
 <div>May occasionally generate incorrect information</div>
 <div>May occasionally produce harmful instructions or biased content</div>
 <div>Limited knowledge of world and events after 2021</div>
