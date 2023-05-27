@@ -499,7 +499,11 @@ onUnmounted(() => {
 <div>Allows user to provide follow-up corrections</div>
 <div>Trained to decline inappropriate requests</div>
 </div>  
-<div class="flax flax-col">AI Chat</div> 
+<div class="flax flax-col"><div>Limitations</div>
+<div>May occasionally generate incorrect information</div>
+<div>Allows user to provide follow-up corrections</div>
+<div>Trained to decline inappropriate requests</div>
+</div> 
  </div>  
 </div>  
           </template>
