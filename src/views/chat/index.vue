@@ -494,7 +494,7 @@ onUnmounted(() => {
 <div>How do I make an HTTP request in Javascript?</div>  
 </div>  
 <div class="flax flax-col">
-<div>Capabilities</div>
+<div></div>
 <div></div>
 <div></div>
 <div></div>
