@@ -487,7 +487,7 @@ onUnmounted(() => {
             </div>
             <div>
           <div class="text-3xl">AI Chat</div>  
-          <div class="flax flax-row">
+          <div class="flax">
 <div class="flax flax-col"><div>Examples</div>
   <div>Explain quantum computing in simple terms</div>  
 <div>Got any creative ideas for a 10 year old’s birthday?</div>  
@@ -501,8 +501,8 @@ onUnmounted(() => {
 </div>  
 <div class="flax flax-col"><div>Limitations</div>
 <div>May occasionally generate incorrect information</div>
-<div>Allows user to provide follow-up corrections</div>
-<div>Trained to decline inappropriate requests</div>
+<div>May occasionally produce harmful instructions or biased content</div>
+<div>Limited knowledge of world and events after 2021</div>
 </div> 
  </div>  
 </div>  
