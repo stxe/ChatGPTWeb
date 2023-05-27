@@ -486,8 +486,8 @@ onUnmounted(() => {
               <span></span>
             </div>
             <div>AI Chat
-          <div>AI Chat</div>
-<div>AI Chat</div>    
+          <div>AI Chat</div>  
+          <div></div>  
 </div>  
           </template>
           <template v-else>
