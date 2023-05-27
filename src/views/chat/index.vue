@@ -488,8 +488,11 @@ onUnmounted(() => {
             <div>AI Chat
           <div>AI Chat</div>  
           <div>
-<div><div></div>
-  </div>  
+<div><div>Examples</div>
+  <div></div>  
+<div></div>  
+<div></div>  
+</div>  
 <div>AI Chat</div>  
 <div>AI Chat</div> 
  </div>  
