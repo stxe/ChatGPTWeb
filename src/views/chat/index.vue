@@ -500,9 +500,9 @@ onUnmounted(() => {
 <div class="p-3 bg-gray-100 rounded-lg ">Trained to decline inappropriate requests</div>
 </div>  
 <div class="flex flex-col space-y-4"><div>Limitations</div>
-<div>May occasionally generate incorrect information</div>
-<div>May occasionally produce harmful instructions or biased content</div>
-<div>Limited knowledge of world and events after 2021</div>
+<div class="p-3 bg-gray-100 rounded-lg ">May occasionally generate incorrect information</div>
+<div class="p-3 bg-gray-100 rounded-lg ">May occasionally produce harmful instructions or biased content</div>
+<div class="p-3 bg-gray-100 rounded-lg ">Limited knowledge of world and events after 2021</div>
 </div> 
  </div>  
 </div>  
