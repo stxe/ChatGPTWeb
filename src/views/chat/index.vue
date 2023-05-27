@@ -486,7 +486,7 @@ onUnmounted(() => {
               <span></span>
             </div>
             <div>
-          <div class="text">AI Chat</div>  
+          <div class="text-3xl">AI Chat</div>  
           <div>
 <div><div>Examples</div>
   <div>Explain quantum computing in simple terms</div>  
