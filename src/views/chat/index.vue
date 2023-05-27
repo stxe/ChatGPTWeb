@@ -488,7 +488,7 @@ onUnmounted(() => {
             <div>
           <div class="text-3xl">AI Chat</div>  
           <div class="flex flex-row space-x-4">
-<div class="flex flex-col space-y-4"><div class="p-3 bg-gray-100">Examples</div>
+<div class="flex flex-col space-y-4"><div class="p-3 bg-gray-100 rounded-lg ">Examples</div>
   <div>Explain quantum computing in simple terms</div>  
 <div>Got any creative ideas for a 10 year old’s birthday?</div>  
 <div>How do I make an HTTP request in Javascript?</div>  
