@@ -38,7 +38,6 @@ export function fetchChatAPIProcess<T = any>(
   if (authStore.isChatGPTAPI) {
     data = {
       ...data,
-      model:"ada:ft-personal-2023-05-30-13-11-05",
       systemMessage: settingStore.systemMessage,
       temperature: settingStore.temperature,
       top_p: settingStore.top_p,
